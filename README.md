@@ -5,7 +5,7 @@
 Bike Share
 
 ### Description
-Analyzes bike share data across 3 cities.
+Analyzes bike share data across 3 cities. Can adjust the month and day of week.
 
 ### Files used
 3 csv files
