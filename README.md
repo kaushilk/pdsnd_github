@@ -11,4 +11,4 @@ Analyzes bike share data across 3 cities.
 3 csv files
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Generally used classroom material too answer any questions.
