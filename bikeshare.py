@@ -9,7 +9,6 @@ cities = { 'c': './chicago.csv',
            'w': './washington.csv' }
 months = range(1,13)
 
-
 def prompt_data():
     prompts = []
     city = input("Which city would you like to see data from? (c)Chicago, (n)New York or (w)Washington? \n")
@@ -18,7 +17,7 @@ def prompt_data():
 
     month = int(input("Which month would you like to see data from? Please use numeric value \n"))
     while month not in months:
-        month = int(input("please enter a valid number \n"))
+        month = int(input("please enter a valid month number \n"))
     prompts.append(city)
     prompts.append(month)
     raw_data = input("would you like to see raw data? (y) or (n) \n")
