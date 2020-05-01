@@ -9,7 +9,6 @@ cities = { 'c': './chicago.csv',
            'w': './washington.csv' }
 months = range(1,13)
 
-
 def prompt_data():
     prompts = []
     city = input("Which city would you like to see data from? (c)Chicago, (n)New York or (w)Washington? \n")
@@ -18,7 +17,7 @@ def prompt_data():
 
     month = int(input("Which month would you like to see data from? Please use numeric value \n"))
     while month not in months:
-        month = int(input("please enter a valid number \n"))
+        month = int(input("please enter a valid month number \n"))
     prompts.append(city)
     prompts.append(month)
     raw_data = input("would you like to see raw data? (y) or (n) \n")
@@ -51,8 +50,8 @@ else:
 #mean Trip Duration
 print("\n Average trip time: {}".format(final_data["Trip Duration"].mean()))
 # most common gender
-print("\n Most common gender: {}".format(final_data["Gender"].mode()))
+print("\n The most common gender is : {}".format(final_data["Gender"].mode()))
 # most common start station
-print("\n Most common start station: {}".format(final_data["Start Station"].mode()))
+print("\n The most common start station is : {}".format(final_data["Start Station"].mode()))
 # most common end station
-print("\n Most common end station: {}".format(final_data["End Station"].mode()))
+print("\n The most common end station is : {}".format(final_data["End Station"].mode()))
