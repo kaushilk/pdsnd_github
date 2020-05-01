@@ -51,8 +51,8 @@ else:
 #mean Trip Duration
 print("\n Average trip time: {}".format(final_data["Trip Duration"].mean()))
 # most common gender
-print("\n Most common gender: {}".format(final_data["Gender"].mode()))
+print("\n The most common gender is : {}".format(final_data["Gender"].mode()))
 # most common start station
-print("\n Most common start station: {}".format(final_data["Start Station"].mode()))
+print("\n The most common start station is : {}".format(final_data["Start Station"].mode()))
 # most common end station
-print("\n Most common end station: {}".format(final_data["End Station"].mode()))
+print("\n The most common end station is : {}".format(final_data["End Station"].mode()))
